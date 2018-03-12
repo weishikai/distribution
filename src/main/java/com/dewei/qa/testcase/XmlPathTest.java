@@ -9,7 +9,9 @@ import static io.restassured.matcher.RestAssuredMatchers.*;
 import static io.restassured.path.xml.XmlPath.*;
 import static org.junit.Assert.*;
 import static org.hamcrest.CoreMatchers.*;
-
+/*
+* 转自https://github.com/seveniruby/RestAssuredDemo
+*/
 public class XmlPathTest {
     @BeforeClass
     public static void beforeAll(){
