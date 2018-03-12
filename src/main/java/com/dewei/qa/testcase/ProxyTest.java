@@ -3,6 +3,9 @@ package com.dewei.qa.testcase;
 import org.junit.Test;
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
+/*
+* 转自https://github.com/seveniruby/RestAssuredDemo
+*/
 public class ProxyTest {
     @Test
     public void testProxy(){
