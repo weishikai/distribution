@@ -4,8 +4,8 @@ import java.util.HashMap;
 import org.testng.annotations.BeforeTest;
 
 import com.alibaba.fastjson.JSONObject;
-import com.dewei.qa.util.AesUtil;
-import com.dewei.qa.util.EncrptUtil;
+import com.dewei.qa.utils.AesUtil;
+import com.dewei.qa.utils.EncrptUtil;
 
 import static io.restassured.RestAssured.*;
 import static io.restassured.matcher.RestAssuredMatchers.*;

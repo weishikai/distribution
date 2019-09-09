@@ -61,7 +61,7 @@ public class Demo {
     	login();
         // 等待登陆app
     	WebDriverWait wait = new WebDriverWait(driver, 30);
-    	wait.until(ExceptedConditions.presenceOfElementLocated(By.id("")));
+    	wait.until(ExpectedConditions.presenceOfElementLocated(By.id("")));
       
     }
     
